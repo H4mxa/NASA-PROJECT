@@ -5,8 +5,10 @@ const Footer = () => {
   return (
     <ArwesFooter animate>
       <Centered>
-        <Paragraph style={{ fontSize: 14, margin: '10px 0' }}>
-          Made with love by Muhammad Hamza.
+        <Paragraph
+          style={{ fontSize: 14, margin: '10px 0', textAlign: 'center' }}
+        >
+          Made with love by Muhammad Hamza
         </Paragraph>
       </Centered>
     </ArwesFooter>
